@@ -18,7 +18,6 @@ spec:
     spec:
       containers:
       - name: mynode
-        imagePullPolicy: Never
-        image: quay.io/camo1995/node-web-app:1.1.1
+        image: quay.io/camo1995/node-web-app:2.0.0
         ports:
         - containerPort: 3040

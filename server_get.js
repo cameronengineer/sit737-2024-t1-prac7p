@@ -10,7 +10,7 @@ app.get("/addTwoNumber", (req,res)=>{
     res.json({statuscocde:200, data: result }); 
 });
 app.get("/", (req, res) => {
-    const n1 = "<html><body><H1>HELLO THERE </H1></body></html>";
+    const n1 = "<html><body><H1>HELLO THERE FAISAL</H1></body></html>";
     res.set('Content-Type', 'text/html');
     res.send(Buffer.from(n1));     
 })
